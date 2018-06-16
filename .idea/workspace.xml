@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="a39e2255-f0f0-4dd5-a550-742665b3e988" name="ねむ" comment="" />
     <list default="true" id="0d22aea8-b00a-492b-aa08-dc4fd44a9aa4" name="デフォルト" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap10_first_principal_component.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chap12_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/draw_states.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/charts.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/clustering.py" beforeDir="false" />
@@ -44,9 +38,11 @@
       <change beforePath="$PROJECT_DIR$/../code/tab_delimited_stock_prices.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/visualizing_data.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code/working_with_data.py" beforeDir="false" />
+    </list>
+    <list id="8c9ba391-ff5b-4423-8940-0bc3a919e0f5" name="commit" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap10.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap8.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap13.py" beforeDir="false" afterPath="$PROJECT_DIR$/chap13.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,50 +52,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chap12.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chap12.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="draw_states.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draw_states.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chap8.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chap12_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chap12_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,12 +90,14 @@
         <option value="$PROJECT_DIR$/chap8.py" />
         <option value="$PROJECT_DIR$/draw_states.py" />
         <option value="$PROJECT_DIR$/chap12.py" />
+        <option value="$PROJECT_DIR$/chap13.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="1920" />
-    <option name="width" value="1095" />
+    <option name="width" value="1109" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -296,6 +251,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0d22aea8-b00a-492b-aa08-dc4fd44a9aa4" name="デフォルト" comment="" />
+      <changelist id="a39e2255-f0f0-4dd5-a550-742665b3e988" name="ねむ" comment="" />
+      <changelist id="8c9ba391-ff5b-4423-8940-0bc3a919e0f5" name="commit" comment="" />
       <created>1528286953482</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -335,18 +292,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1095" height="1080" extended-state="4" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1109" height="1080" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1635" y="27" width="285" height="1048" id="Project" order="0" type="FLOATING" visible="true" weight="0.2497809" />
+      <window_info content_ui="combo" x="1635" y="27" width="285" height="1048" id="Project" order="0" type="FLOATING" visible="true" weight="0.2497809" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32947367" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.16852887" side_tool="true" weight="0.35578948" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32947367" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983193" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.83147115" visible="true" weight="0.35578948" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947367" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.83147115" weight="0.35578948" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32842106" />
       <window_info x="1324" y="27" width="309" height="1051" id="Structure" order="1" side_tool="true" type="FLOATING" visible="true" weight="0.24978541" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32947367" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.7252632" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8324022" weight="0.39789474" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,6 +312,32 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -451,16 +433,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chap10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -650,13 +622,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.ignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chap5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -750,34 +715,48 @@
     <entry file="file://$PROJECT_DIR$/chap12_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chap8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="2596">
+          <caret line="159" selection-end-line="159" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draw_states.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="247">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chap12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="462">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
