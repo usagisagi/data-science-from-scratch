@@ -2,6 +2,6 @@
 ./easy_ham/*
 ./hard_ham/*
 ./spam/*
-./easy_ham
-./hard_ham
-./spam
+easy_ham
+hard_ham
+spam
