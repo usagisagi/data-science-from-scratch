@@ -16,16 +16,6 @@ def derivative(x):
     return 2 * x
 
 
-func = lambda x: x ** 2
-
-xs = np.arange(-10, 10)
-
-derivate_estimate = partial(difference_quotient, f=func, h=1e-4)
-
-plt.scatter(xs, [derivative(x) for x in xs])
-plt.scatter(xs, [derivate_estimate(x=x) for x in xs])
-
-
 def partial_difference_quotient(f, v, i, h=1e-4):
     # vのi番目の偏微分を求める
     # i番目にhを加える
@@ -48,22 +38,7 @@ def sum_of_squares_gradient(v):
 
 
 def distance(v1, v2):
-    return np.sum((v1 - v2) ** 2)
-
-
-v = [np.random.randint(-10, 10) for i in range(3)]
-
-tolerance = 1e-10
-
-while True:
-    gradient = sum_of_squares_gradient(v)
-    next_v = step(v, gradient, -0.01)
-    d = distance(next_v, v)
-    if d < tolerance:
-        break
-    v = next_v
-
-print(v)
+    return np.sum((np.array(v1) - np.array(v2)) ** 2)
 
 
 def safe(f):
@@ -131,8 +106,8 @@ def in_random_order(data):
         yield data[i]
 
 
-def minimize_stochastic(target_fn, gradient_fn, x: np.ndarray, y: np.ndarray, theta_0, alpha_0=0.01):
-    data = list(zip(x, y))
+def minimize_stochastic(target_fn, gradient_fn, x: np.ndarray, y: np.ndarray, theta_0, alpha_0=0.01) -> np.ndarray:
+    data = np.array(list(zip(x, y)))
     theta = theta_0
     alpha = alpha_0
     min_theta, min_value = None, float("inf")
@@ -150,7 +125,35 @@ def minimize_stochastic(target_fn, gradient_fn, x: np.ndarray, y: np.ndarray, th
             alpha *= 0.9
 
         for x_i, y_i in in_random_order(data):
-            gradient_i = gradient_fn(x_i, y_i, theta)
+            gradient_i = np.array(gradient_fn(x_i, y_i, theta))
             theta = theta - gradient_i * alpha
 
     return min_theta
+
+
+def maximize_stochastic(target_fn, gradient_fn, x, y, theta_0, alpha_0=0.01):
+    return minimize_stochastic(negate(target_fn), negate_all(gradient_fn), x, y, theta_0, alpha_0)
+
+
+if __name__ == '__main__':
+    func = lambda x: x ** 2
+
+    xs = np.arange(-10, 10)
+
+    derivate_estimate = partial(difference_quotient, f=func, h=1e-4)
+
+    plt.scatter(xs, [derivative(x) for x in xs])
+    plt.scatter(xs, [derivate_estimate(x=x) for x in xs])
+    v = [np.random.randint(-10, 10) for i in range(3)]
+
+    tolerance = 1e-10
+
+    while True:
+        gradient = sum_of_squares_gradient(v)
+        next_v = step(v, gradient, -0.01)
+        d = distance(next_v, v)
+        if d < tolerance:
+            break
+        v = next_v
+
+    print(v)
